@@ -1,2 +1,11 @@
-package com.scaler.test.controller;public class CategoryController {
+package com.scaler.test.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class CategoryController {
+
+
 }

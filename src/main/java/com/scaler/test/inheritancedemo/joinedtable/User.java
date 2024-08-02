@@ -1,2 +1,12 @@
-package com.scaler.test.inheritancedemo.joinedtable;public class user {
+package com.scaler.test.inheritancedemo.joinedtable;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class User {
+    private Long id;
+    private String name;
+    private String email;
 }

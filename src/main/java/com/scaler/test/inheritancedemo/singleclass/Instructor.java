@@ -1,4 +1,10 @@
-package com.scaler.test.inheritancedemo.mappedsuperclass;
+package com.scaler.test.inheritancedemo.singleclass;
 
-public class Instructor {
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Instructor extends User {
+    private String favouriteStudent;
 }
